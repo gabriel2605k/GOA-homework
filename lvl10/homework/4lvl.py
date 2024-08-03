@@ -18,5 +18,5 @@ number =str(input("Number:"))
 if number ==int:
     print("negative")
 else:
-    print("positive")
+    print("negative")
     
