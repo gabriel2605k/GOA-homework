@@ -1,10 +1,10 @@
-name=("gabi")
-print("hello gabi")
+name=input("Whats your name :")
+print("hello",name)
 
-name="gabi"
-username="karkashadze"
-age="12"
-city="kutaisi"
 
-print=(name +" "+ username +" "+ age +" "+ city)
+lastname=input("whats your last name:")
+age=input(str("how old are you:"))
+city=input("Where are you from:")
+
+print=(name +" "+ lastname+" "+ age +" "+ city)
 
