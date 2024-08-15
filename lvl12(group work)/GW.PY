@@ -39,4 +39,5 @@ if anserw == "deposit" :
 if anserw == "withdraw" :
     w=int(input("enter the amount:"))
     print("your balance now is ",initial_balance - w)
+
 print("GOOD JOB!")
