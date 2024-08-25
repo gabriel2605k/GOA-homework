@@ -1,5 +1,5 @@
 import random
 
-k = ["bank","jeridani","chatjpt"]
+random =["bank","jeridani","chatjpt"]
 
-print (random. choice(k))
+print (random. choice(random))
