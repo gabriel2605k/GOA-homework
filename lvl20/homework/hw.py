@@ -19,3 +19,4 @@ print(sum1 + sum3)
 # 3
 num3 = 0
 for i in range(1,100):
+    print()
