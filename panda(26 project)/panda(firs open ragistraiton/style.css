@@ -1,0 +1,120 @@
+    /* All */
+    *{
+        font-family:serif;
+    }
+    /* bg */
+    body{
+        height:650px;
+        animation: bg infinite alternate 4s;        
+    }
+    @keyframes bg{
+        to{
+            background-color: rgb(0, 23, 43);
+        }
+        from{
+            background-color: cadetblue;
+        }
+    }
+    .bx{
+        font-size:60px;
+        text-shadow: 10px 10px 50px;
+        cursor:pointer;
+        color:rgb(171, 169, 165);
+        animation: ball_1 infinite alternate 1s;
+     }
+    @keyframes ball_1{
+        0%{
+            margin-left:10px;
+        }
+        100%{
+            margin-left:1450px;
+            margin-top:30px;
+        }
+    }
+    
+        /* buttons */
+    .Button{
+        margin-left: 35%;
+        margin-top: 15%;
+    }
+    button{
+        background: none;
+        width:100px;
+        height:100px;
+        font-size: 50px;
+        border-radius:3px;
+        border-width:2px;
+        cursor: pointer;
+        transition: background-color, 2s
+    }
+    button:hover{
+        background-color: rgb(0, 255, 72) ;
+        border-width:3px;
+        box-shadow: 0px 10px 30px;
+    }
+    
+        /* Title */
+    h1{
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 1px 10px 3px rgb(189, 189, 189);
+        animation: title 4s infinite alternate;
+    }
+    @keyframes title{
+        0%{
+           color: rgb(0, 23, 43);
+        }
+        100%{
+            color: cadetblue;
+        }
+    }
+    
+        /* user, compiuter, result */
+    .User, .compiuter, .Result {
+        display:flex;
+        align-items: center;
+        font-size: x-large;
+    }
+    .compiuter{
+        margin-left:80%;
+        margin-top:-420px;
+        color:rgb(22, 0, 0);
+        text-shadow: 1px 4px 2px rgb(182, 0, 0);
+    }
+    .User{
+        color:rgb(0, 2, 47);
+        margin-left:20px;
+        text-shadow: 2px 4px 2px rgb(1, 69, 88);
+    }
+    .Result{
+        margin-left:40%;
+        margin-top:-100px;
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 4px 2px rgb(80, 33, 97);
+    }
+    
+    /* score */
+    .score{
+        margin-left:39%;
+        margin-top:-40px;
+        font-size:17px;
+    }
+        /* compiuter */
+    .CompiuterS{
+        color:rgb(22, 0, 0);
+        display:flex;
+        align-items: center;
+        margin-top: -40px;
+    }
+        /* user */
+    .UserS{
+        color:rgb(0, 2, 47);
+        display:flex;
+        align-items: center;
+    }
+    .game{
+        display:flex;
+        align-items: center;
+        color:rgb(0, 0, 0);
+    }
+    

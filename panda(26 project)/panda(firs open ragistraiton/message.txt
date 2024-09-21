@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>Group PANDA</title>
+        <meta>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .f{
+                font-size: 36px;
+              
+            }
+            .fa{
+                cursor: pointer;
+                user-select: none;
+                font-size: 85px;
+                margin-top: 20px;
+                
+            }
+            .fa:hover {
+                color: darkblue;
+                transition-duration: 0.5s;
+            }
+            
+            body{
+                background-image: url(das.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .yt{
+                width: 12cm;
+            }
+
+            img{
+                height: 300px;
+                width: 300px;
+                margin-top: 20px;
+            }
+            button{
+                border-radius: 60px;
+                font-size: 70px;
+                background-color: red;
+            }
+            button:hover{
+                transition-duration: 1s;
+                background-color: rgb(255, 255, 255);
+            }
+            input{
+                border-radius: 60px;
+                
+                font-size: 44px;
+                width: 21cm;
+                position:absolute;
+                top: 40px;
+                left: 13cm;
+            }
+           h1{
+            color: white;
+           }
+           @keyframes p{
+            25%{
+                color: red;
+            }
+            50%{
+                color: blue;
+            }
+            75%{
+                color: rgb(0, 0, 0);
+            }
+            100%{
+                color: yellow;
+            }
+           }
+           p{
+            animation-name: p;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+           }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe9KbPsKoOFB539tWzlFDCj9MSrAyAX6v5Mg&s" alt="Youtube" class="yt">
+            <form>
+                <input type="search" placeholder="Search">
+            </form>
+        </header>
+        <main>
+            <video controls>
+                <source src="./videos/GOA hackathon V 2.0 ვლოგი.mp4" type="video/mp4">
+                <source src="./videos/GOA hackathon V 2.0 ვლოგი.mp4" type="video/ogg">
+                <source src="./videos/GOA hackathon V 2.0 ვლოგი.mp4" type="video/webm">
+            </video>
+            <h1>GOA hackathon V 2.0 ვლოგი</h1><i onclick="myFunction(this)" class="fa fa-thumbs-up thumbs-up"></i>
+<p style="font-size: 36px;">Like/DesLike</p>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+            <video controls>
+                <source src="./videos/GOA-ში თქვენი შვილის ოცნებები ასრულდება.mp4" type="video/mp4">
+                <source src="./videos/GOA-ში თქვენი შვილის ოცნებები ასრულდება.mp4" type="video/ogg">
+                <source src="./videos/GOA-ში თქვენი შვილის ოცნებები ასრულდება.mp4" type="video/webm">
+            </video>
+            <h1>GOA-ში თქვენი შვილის ოცნებები ასრულდება</h1>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up thumbs-up"></i>
+<p style="font-size: 36px;">Like/DesLike</p>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+            <video controls>
+                <source src="./videos/videoplayback (1).mp4" type="video/mp4">
+                <source src="./videos/videoplayback (1).mp4" type="video/ogg">
+                <source src="./videos/videoplayback (1).mp4" type="video/webm">
+            </video>
+            <h1>აარიდე შვილს მოსაწყენი ზაფხული</h1>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up thumbs-up"></i>
+<p style="font-size: 36px;">Like/DesLike</p>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+            <video controls>
+                <source src="./videos/Andrew Tate იჭერს გოგოებს 👩_🦳 (შევქმენი თამაში 🎮).mp4" type="video/mp4">
+                <source src="./videos/Andrew Tate იჭერს გოგოებს 👩_🦳 (შევქმენი თამაში 🎮).mp4" type="video/ogg">
+                <source src="./videos/Andrew Tate იჭერს გოგოებს 👩_🦳 (შევქმენი თამაში 🎮).mp4" type="video/webm">
+            </video>
+            <h1>Andrew Tate იჭერს გოგოებს 👩_🦳 (შევქმენი თამაში 🎮)</h1>
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up thumbs-up"></i>
+<p style="font-size: 36px;">Like/DesLike</p>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+            <video controls>
+                <source src="./videos/რას ფიქრობენ ჩვენი მოსწავლეები GOA-ზე_.mp4" type="video/mp4">
+                <source src="./videos/რას ფიქრობენ ჩვენი მოსწავლეები GOA-ზე_.mp4" type="video/ogg">
+                <source src="./videos/რას ფიქრობენ ჩვენი მოსწავლეები GOA-ზე_.mp4" type="video/webm">
+            </video>
+            <h1>რას ფიქრობენ ჩვენი მოსწავლეები</h1>
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up thumbs-up"></i>
+<p class="f">Like/DesLike</p>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+        </main>
+        <footer>
+
+            <img src="https://yt3.ggpht.com/wv002nZG78fVumUkOOWhg4ARc3ahz2xe7j7mTkCk_oRZEF1gXS--tqQTMYo66cbT2uz9B5n6XA=s176-c-k-c0x00ffffff-no-rj-mo" alt="GOA" class="d"> <br>
+            <button><a href="https://www.youtube.com/@Goal_Oriented_Academy__GOA">subscribe</a></button>
+            <h1 ><i>Goal-oriented academy</i></h1>
+        </footer>
+    </body>
+</html>

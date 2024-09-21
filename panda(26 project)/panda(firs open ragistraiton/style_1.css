@@ -1,0 +1,100 @@
+/* everything */
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(30, 203, 7);
+}
+/* site bg color (body color) */
+body{
+    animation: colortransition 6s infinite alternate;
+}
+@keyframes colortransition {
+    0% {
+        background-color: #020012;
+    }
+    45%{
+        background-color: rgb(36, 71, 0);
+    }
+    70%{
+        background-color: rgb(96, 4, 23);
+    }
+    100% {
+        background-color: #337479;
+    }
+    }
+                                              /* Translate website button */
+/*  flag */
+img{
+    cursor: pointer;
+    border-radius: 7px;
+    width:80px;
+    margin-left:15px;
+    margin-top:15px;
+}
+                                                    /* everything for login box */
+/* title = h1 */
+h1 {
+    margin-left:150px;
+}
+
+/* Class "Login"  */
+.Login{
+    margin-left:40%;
+    margin-top: 5%;
+    font-size: larger;
+    /* background-color: blue; */
+    height: 400px;
+    width: 400px;
+    box-shadow: 10px 10px 50px;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+}
+
+/* id usarname & password */
+#username, #password {
+    border-radius: 30px;
+    width:300px;
+    height: 40px;
+    border-color: rgb(156, 160, 160);
+    margin:10px 10px;
+    box-shadow: 10px 10px 100px;
+    font-size: large;
+    border:1px solid;
+    padding: 0px 0px 1px 30px;
+}
+/* icon class = bx */
+.bx{
+    font-size: x-large;
+    cursor:pointer;
+}
+/* submit button  */
+#submit{
+    cursor:pointer;
+    margin-left:140px;
+    border-radius: 3px;
+    width:100px;
+    height: 30px;
+    background-color: rgb(32, 55, 9);
+    border:0px ;
+    font-size:large;
+}
+#submit:hover{
+    background-color: rgb(21, 35, 6);
+    box-shadow: 0px 5px 50px;
+}
+
+/* remember information checkbox */
+#CheckBox{
+    margin-left:15px;
+    cursor:pointer;
+}
+
+.accaunt{
+    margin-left:20px;
+    margin-top:15px
+}
+
+/* more information */
+p{
+    margin-left:20px;
+    margin-top:10%;
+}
