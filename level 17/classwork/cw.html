@@ -1,0 +1,29 @@
+<!-- შექმნათ ფორმა სადაც მომხმარებელი გააკეთებს მანქანის/მოტოციკლეტის შეკვეთას, შეიყვანს სახელს,  გვარს, ტელეფონის \ნომერს 
+აირჩევს რომელი მანქანა ან მოტოციკლეტი სურს მას, ბოლოში გააგზავნის submit ის მეშვეობით ამ ინფორმაციას -->
+<html>
+    <head>
+        <title>GOA classwork</title>
+        <meta>
+    </head>
+    <body>
+        <h1>!Buy New Cars!</h1>
+        <form>
+            <label for="Name">Enter your FirstName:</label>
+            <input type="text" required maxlength="12" id="Name"><br><br>
+            <label for="last">Enter your LestName:</label>
+            <input type="text" required maxlength="15" id="last"><br><br>
+            <label for="number">Enter your PhoneNumber:</label>
+            <input type="number" required maxlength="9" id="number"><br><br>
+            <label for="Cars">!Buy Car!</label>
+                <select name="Cars" id="Cars">
+                <option value="BMW">BMW</option>
+                <option value="Mercedes Benz">Mercedes Benz</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Porshe">Porshe</option>
+                <option value="Ferari">Ferari</option>
+               </select><br><br>
+            <input type="submit">
+            
+        </form>
+    </body>
+</html>

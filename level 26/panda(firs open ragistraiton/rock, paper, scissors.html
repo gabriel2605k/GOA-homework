@@ -1,0 +1,62 @@
+<!-- Rock, Paper, scissors -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>rock, paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!-- title -->
+    <h1>ROCK, PAPER, SCISSORS</h1>
+
+<!-- user -->
+
+    <div class="User">
+        <h3>Your choise: </h3>
+        <div id="user"></div>
+    </div>
+
+    <!-- Choise -->
+    <div class="Button">
+        <button onclick="rock()">👊</button>
+        <button onclick="paper()">✋</button>
+        <button onclick="scissors()">✌️</button>
+    </div>
+
+<!-- Compiuter -->
+    <div class="compiuter">
+        <h3>Computer:</h3>
+        <div id="compiuter"></div>
+    </div>
+
+<!-- Result -->
+    <div class="Result">
+        <h3>Result: </h3>
+        <div id="Result"></div>
+    </div>
+<!-- score -->
+    <div class="score">
+        <div class="UserS">
+            <h4>User score: </h4><div id="userScore">0
+            </div>
+        </div>
+        <div class="CompiuterS">
+            <h4>Computer score: </h4>
+            <div id="compiuterScore">0</div>
+        </div>
+        <div class="game">
+            <h4>Game: </h4>
+            <div id="Game">0</div>
+        </div>
+        
+    </div>
+    <i class='bx bxs-basketball' onclick="alert('შენ აქ ბურთის დასაჭერად შემოხვედი თუ ჯეირანის სათამაშოდ? წადი ითამაშე!')"></i>
+
+<!-- JS -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
