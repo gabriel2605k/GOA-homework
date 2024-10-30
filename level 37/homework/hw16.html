@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes with Hover Effect</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .shape {
+            width: 100px;
+            height: 100px;
+            transition: all 0.3s ease;
+        }
+        .square {
+            background-color: #4CAF50;
+        }
+        .circle {
+            background-color: #FF5733;
+            border-radius: 50%;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid #FFC300;
+        }
+        .pentagon {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: #C70039;
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        }
+        .shape:hover {
+            transform: scale(1.1);
+        }
+        .triangle:hover {
+            border-bottom-color: #FF5733; 
+        }
+        .pentagon:hover {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="shape square"></div>
+    <div class="shape circle"></div>
+    <div class="shape triangle"></div>
+    <div class="shape pentagon"></div>
+
+</body>
+</html>
